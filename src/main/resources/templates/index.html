@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<h1> Lista zadań:</h1>
+<body>
+
+<ul th:each="task: ${tasks}">
+<li th:text="${task}">
+
+</li>
+
+
+</ul>
+<a href="/">Powrót</a>
+</body>
+</html>
